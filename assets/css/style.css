@@ -13,11 +13,26 @@ body{
  Modify bootstrap navbar to display it as fixed positioned with zero border and margin;
  */
 .navbar{
-  position:fixed;
   width:100%;
   margin-bottom:0px;
   border-radius:0px;
   border:0px;
+  transition:box-shadow 0.2s 0.2s ease-in-out;
+}
+
+/*
+ Dynamically make a navbar fixed
+*/
+.fixed-nav{
+  position:fixed;
+  z-index:9999;
+}
+
+/*
+ Add box shadow effect
+*/
+.box-shadow{
+  box-shadow:0px 0px 15px #000;
 }
 
 /*
@@ -26,6 +41,26 @@ body{
 .navbar-brand{
   color:#000 !important;
   font-weight:bold;
+  line-height:30px;
+}
+
+/*
+ Display image in a circular thumbnail
+*/
+.navbar-brand img{
+  float:left;
+  margin-right:10px;
+  width:32px;
+  height:32px;
+  border-radius:16px;
+  vertical-align:middle;
+}
+
+/*
+ Vertical align span in the middle
+*/
+.navbar-brand span{
+  vertical-align:middle;
 }
 
 /*
@@ -109,5 +144,6 @@ body{
  A footer with fixed height
  */
 .footer{
-  height:150px;
+  max-height:200px;
+  padding-bottom:20px;
 }
