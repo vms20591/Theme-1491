@@ -33,17 +33,17 @@ body{
  */
 
 .tiger-background{
-  background:url('/assets/images/Winter-Tiger-Wild-Cat-Images.jpg') no-repeat center fixed;
+  background:url('assets/images/Winter-Tiger-Wild-Cat-Images.jpg') no-repeat center fixed;
   background-size:cover;
 }
 
 .space-background{
-  background:url('/assets/images/sky-space-dark-galaxy.jpg') no-repeat center fixed;
+  background:url('assets/images/sky-space-dark-galaxy.jpg') no-repeat center fixed;
   background-size:cover;
 }
 
 .nature-background{
-  background:url('/assets/images/agriculture-13730152618Ej.jpg') no-repeat center fixed;
+  background:url('assets/images/agriculture-13730152618Ej.jpg') no-repeat center fixed;
   background-size:cover;
   background-position:right bottom;
 }
